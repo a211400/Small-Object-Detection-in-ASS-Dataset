@@ -1,1 +1,1 @@
-# Small-Object-Detection-in-Aerial-Surveillance
+Small-Object-Detection
