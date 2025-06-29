@@ -86,8 +86,7 @@ Evaluate the performance of the trained models on the validation set.
 * **Evaluate on the ASS2 Validation Set**:
 
   ````bash
-  #
-  ``` Validate the model that was fine-tuned on ASS2
+  # Validate the model that was fine-tuned on ASS2
   yolo detect val model=runs/ASS2/yolo11n/weights/best.pt data=datasets/ASS2/ASS2.yaml imgsz=640 project=runs/val name=ASS2_val
   ````
 
