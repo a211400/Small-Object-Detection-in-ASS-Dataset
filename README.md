@@ -75,8 +75,7 @@ yolo detect train model=ultralytics/cfg/models/11/yolo11.yaml data=datasets/ASS1
   Given the smaller size of the ASS2 dataset, we use the best weights (`best.pt`) from the model trained on ASS1 as pretrained weights. This fine-tuning approach helps to prevent overfitting.
 
   ````bash
-  # Note: Please replace 'runs/ASS1/
-  ```yolo11n/weights/best.pt' with the actual path to the weights generated in the previous step.
+  # Note: Please replace 'runs/ASS1/yolo11n/weights/best.pt' with the actual path to the weights generated in the previous step.
   ```yolo detect train model=ultralytics/cfg/models/11/yolo11.yaml data=datasets/ASS2/ASS2.yaml epochs=300 imgsz=640 batch=16 pretrained="runs/ASS1/yolo11n/weights/best.pt" project=runs/ASS2 name=yolo11n
   ````
 
