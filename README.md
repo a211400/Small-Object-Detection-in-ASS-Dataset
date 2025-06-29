@@ -77,10 +77,7 @@ yolo detect train model=ultralytics/cfg/models/11/yolo11.yaml data=datasets/ASS1
   ````bash
   # Note: Please replace 'runs/ASS1/
   ```yolo11n_from_scratch/weights/best.pt' with the actual path to the weights generated in the previous step.
-  y
-  ```olo detect train model=ultralytics/cfg/models/11/yolo11.yaml data=datasets/ASS2/ASS2.
-  ```yaml epochs=300 imgsz=640 batch=16 pretrained="runs/ASS1/yolo11n_from_scratch
-  ```/weights/best.pt" project=runs/ASS2 name=yolo11n
+  ```yolo detect train model=ultralytics/cfg/models/11/yolo11.yaml data=datasets/ASS2/ASS2.yaml epochs=300 imgsz=640 batch=16 pretrained="runs/ASS1/yolo11n/weights/best.pt" project=runs/ASS2 name=yolo11n
   ````
 
 ### 2. Validation
