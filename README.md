@@ -89,8 +89,7 @@ Evaluate the performance of the trained models on the validation set.
   ````bash
   #
   ``` Validate the model that was fine-tuned on ASS2
-  yolo detect val model=runs/ASS2/yolo11n_finet
-  ```uned/weights/best.pt data=datasets/ASS2/ASS2.yaml imgsz=640 project=runs/val name=ASS2_val
+  yolo detect val model=runs/ASS2/yolo11n/weights/best.pt data=datasets/ASS2/ASS2.yaml imgsz=640 project=runs/val name=ASS2_val
   ````
 
   ```bash
@@ -104,8 +103,7 @@ We provide two custom scripts for running inference.
 
 * **`predict1.py`**: 
   ````bash
-  python predict
-  ```1.py
+  python predict1.py
   ````
 * **`predict2.py`**: 
 
