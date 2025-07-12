@@ -5,7 +5,6 @@ Small-Object-Detection
 This project utilizes two custom datasets, `ASS1` and `ASS2`.
 
 * **Dataset Link**:(https://zenodo.org/records/10969885)
-* **Recommendation**: For broader accessibility and easier reproduction of our work, we recommend you upload the dataset to a service like Google Drive or Dropbox and provide the shareable link here.
 * **Directory Structure**: After downloading and extracting the files, please place the dataset folders in the project'--
 
 This is an enhanced implementation based on the official [Ultralytics YOLOv11](https://github.com/ultralytics/ultralytics) repository. This project aims to improve the performance of the object detection model, especially for small objects, by integrating advanced neural network modules and a specialized loss function.
