@@ -1,4 +1,4 @@
-Small-Object-Detection
+Codes for our paper entitled Robust Small-Object Detection in Aerial Surveillance viaIntegrated Multi-scale Probabilistic Framework
 
 ## Datasets
 
@@ -32,4 +32,3 @@ This repository contains the source code for our academic paper.
   ...
   ````
 
-Codes for our paper entitled Robust Small-Object Detection in Aerial Surveillance viaIntegrated Multi-scale Probabilistic Framework
